@@ -36,3 +36,111 @@
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  
+}
+
+@media only screen and (max-width: 996px) {
+  .login-buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .table-options{
+    padding: 20px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+  .CustomModal-paper-1{
+    width: 310px !important;
+  }
+  .CustomModal-paper-9{
+    width: 310px !important;
+  }
+  /* .table-options{
+    display: flex;
+    flex-direction: column;
+
+  } */
+  .table-buttons{
+    display: flex;
+    flex-direction: column;
+  }
+  .table-header{
+    display: flex;
+    flex-direction: column;
+  }
+  .create-group-button{
+    margin-top: 10px !important;
+  }
+  .table-data-wrapper{
+    height: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .login-buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .table-options{
+    padding: 20px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+  .CustomModal-paper-1{
+    width: 600px !important;
+  }
+  .CustomModal-paper-9{
+    width: 600px !important;
+  }
+  .table-buttons{
+    display: flex;
+    flex-direction: column;
+  }
+  .table-header{
+    display: flex;
+    flex-direction: column;
+  }
+  .create-group-button{
+    margin-top: 10px !important;
+  }
+  .table-data-wrapper{
+    height: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .login-buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .table-options{
+    padding: 20px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+  .CustomModal-paper-1{
+    width: 310px !important;
+  }
+  .CustomModal-paper-9{
+    width: 310px !important;
+  }
+  .table-buttons{
+    display: flex;
+    flex-direction: column;
+  }
+  .table-header{
+    display: flex;
+    flex-direction: column;
+  }
+  .create-group-button{
+    margin-top: 10px !important;
+  }
+  .table-data-wrapper{
+    height: 300px !important;
+  }
+}
